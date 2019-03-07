@@ -484,7 +484,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   fullTrack: {
-    flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
+    flexDirection: 'row',
   },
   track: {
     ...Platform.select({
