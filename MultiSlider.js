@@ -169,7 +169,7 @@ export default class MultiSlider extends React.Component {
       ? gestureState.dx
       : gestureState.dy;
 
-    const unconfined = I18nManager.isRTL
+    var unconfined = I18nManager.isRTL
       ? this.state.pastOne - accumDistance
       : accumDistance + this.state.pastOne;
     var bottom = 0;
@@ -227,7 +227,7 @@ export default class MultiSlider extends React.Component {
       ? gestureState.dx
       : gestureState.dy;
 
-    const unconfined = I18nManager.isRTL
+    var unconfined = I18nManager.isRTL
       ? this.state.pastTwo - accumDistance
       : accumDistance + this.state.pastTwo;
     var bottom =
